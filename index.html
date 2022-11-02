@@ -8,33 +8,96 @@
   
   <title>Frontend Mentor | FAQ Accordion Card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <main class="container">
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+    <div class="faq">
+      
+        <h1 class="faq__title">Faq</h1>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+        <article class="question">
+          <div class="question__title">
+            <div class="question__title__text">How many team members can I invite?</div>
+            <button class="question__button" aria-label="Show answer">
+              <span>
+                <img src="./images/icon-arrow-down.svg" alt="arrow">
+              </span>
+            </button>
+          </div>
+          <div class="question__text">
+            <p class="question__title__text">You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.</p>
+          </div>
+        </article>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+        <article class="question">
+          <div class="question__title">
+            <div class="question__title__text">What is the maximum file upload size?</div>
+            <button class="question__button" aria-label="Show answer">
+              <span>
+                <img src="./images/icon-arrow-down.svg" alt="arrow">
+              </span>
+            </button>
+          </div>
+          <div class="question__text">
+            <p class="question__title__text">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </div>
+        </article>
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+        <article class="question">
+          <div class="question__title">
+            <div class="question__title__text">How do I reset my password?</div>
+            <button class="question__button" aria-label="Show answer">
+              <span>
+                <img src="./images/icon-arrow-down.svg" alt="arrow">
+              </span>
+            </button>
+          </div>
+          <div class="question__text">
+            <p class="question__title__text">Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.</p>
+          </div>
+        </article>
 
-  <div class="attribution">
+        <article class="question">
+          <div class="question__title">
+            <div class="question__title__text">Can I cancel my subscription?</div>
+            <button class="question__button" aria-label="Show answer">
+              <span>
+                <img src="./images/icon-arrow-down.svg" alt="arrow">
+              </span>
+            </button>
+          </div>
+          <div class="question__text">
+            <p class="question__title__text">Yes! Send us a message and we&#39;ll process your request no questions asked.</p>
+          </div>
+        </article>
+
+        <article class="question">
+          <div class="question__title">
+            <div class="question__title__text">Do you provide additional support?</div>
+            <button class="question__button" aria-label="Show answer">
+              <span>
+                <img src="./images/icon-arrow-down.svg" alt="arrow">
+              </span>
+            </button>
+          </div>
+          <div class="question__text">
+            <p class="question__title__text">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </div>
+        </article>
+      
+    </div>
+
+  </main>
+
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://github.com/stefrotaru">Stefan Rotaru</a>.
+  </footer>
+
+  <script src="./scripts/script.js"></script>
 </body>
 </html>
